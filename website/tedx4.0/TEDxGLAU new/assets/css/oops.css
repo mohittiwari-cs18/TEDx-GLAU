@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900");
+
+body{
+	width: 100%;
+	margin: 0 0 ;
+	background-color: #F6F6F6;
+
+}
+.head{
+	font-size: 5em;
+}
+.red{
+	color:#EC3832 ;
+}
+.contain{
+	padding-top:50px; 
+	width: 400px;
+	height: 300px;
+	margin:auto;
+	text-align: center;
+	font-weight: 600;
+	font-size: 0.8em;
+	color: #1D1D1D;
+
+}
+.image{
+	margin: auto;
+	width: 100%;
+}
+
+@media screen and (max-width: 400px)
+{
+	.contain{
+		width: 300px
+	}
+	.head{
+		font-size: 3em;
+	}
+}

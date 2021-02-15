@@ -1,0 +1,27 @@
+{
+    "title": "TEDxCUSAT",
+    "name": "tedxcusat",
+    "version": "1.0.0",
+    "description": "Event websie built for TEDxCUSAT",
+    "keywords": [
+        "TEDxCUSAT",
+        "TEDx",
+        "CUSAT",
+        "cusat",
+        "tedxcusat",
+        "ernakulam",
+        "mec",
+        "kochi"
+    ],
+    "homepage": "http://tedxcusat.in/",
+    "license": "MIT",
+    "author": "TedxCUSAT",
+    "contributors": [
+        "Jyothis P (https://github.com/Jyothis-P)",
+        "Jithin K Satheesh (https://github.com/JithinKSatheesh)"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/JithinKSatheesh/tedx"
+    }
+}

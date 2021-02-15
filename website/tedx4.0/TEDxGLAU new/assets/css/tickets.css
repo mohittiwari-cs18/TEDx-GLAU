@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900");
+
+body{
+	width: 100%;
+	margin: 0 0 ;
+	background-image: url('../img/bg/slider4.jpg');
+
+}
+
+.header{
+	margin-top: 20px;
+}
+.tickets{
+	max-width: 720px;
+	margin: auto;
+	font-family: "Montserrat", sans-serif;
+
+}
+
+.container{
+	/*background-color: white;*/
+	background-color: rgba(255, 255, 255, 0.9);
+	padding: 20px;
+	margin-top: 20px;
+	border-radius: 15px;
+	scroll-behavior: smooth;
+
+}
+
+/****************************************/
+.radio-s{
+	width: 20px;
+	height: 20px;
+	border:2px solid black;
+	-webkit-appearance: none;
+
+
+}
+
+.radio-s:checked{
+	background-color: #EC3832;
+	border-color: #EC3832;
+
+}
+
+.radio-s:checked + .form-check-label{
+	font-weight: bold;
+
+}
+
+.radio-s:hover{
+	border-color: #EC3832;
+}
+
+
+#terms{
+	max-width: 290px;
+	margin: auto;
+	text-align: center;
+	font-size: 0.8em;
+}
+
+/****************************************/
+
+
+
+.seatlayout{
+	margin: auto;
+}
+
+/*+++++++++++++++++++++++++++++++++++*/
+/*seats*/
+.seat {
+    
+    width: 30px; 
+    height: 30px;
+    margin: 5px;
+    border: 2px solid grey;
+    float: left;
+    border-radius: 5px;
+
+  -webkit-appearance: none;
+     
+}
+
+.seat:after{
+	content: attr(data-after);
+	text-align: center;
+	font-size: 0.8em;
+
+	color: green;
+	font-weight: bold;
+
+}
+
+/*.hovering{
+	background-color: grey;
+}
+.selected{
+    background-color: #EE5F57;
+    border-color: #EE5F57;
+}*/
+/***************************************/
+
+.messagePanel{
+	width: 700px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.space{
+	width: 30px;
+}
+.break{
+	width: 700px;
+}
+.scroll{
+	overflow-x: scroll;
+}
+
+
+/***************************************/
+
+.messagePanel input:checked {
+	background-color: #EE5F57;
+	border-color: #EE5F57;
+}
+.messagePanel input:hover {
+	border-color: green;
+}
+
+.messagePanel input:disabled{
+	background-color: grey;
+}
+
+
+.screen {
+    border: #474747;
+    border-width: 0px;
+    border-bottom-width: 5px;
+    border-style: solid;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+}
+
+/*====================================*/
+
+
+@media screen and (max-width: 768px){
+	.seat{
+		width: 25px;
+		height: 25px;
+		margin: 2.5px;
+	}
+
+	.messagePanel{
+		width: 510px;
+	}
+	.seat:after{
+		font-size: 0.6em;
+	}
+	.break{
+	width: 510px;
+	}	
+	/*.scroll{
+	overflow-x: scroll;
+	}*/
+
+}
+
+
+
+@media screen and (max-width: 450px){
+
+	.space{
+		width: 20px;
+	}
+}
+
