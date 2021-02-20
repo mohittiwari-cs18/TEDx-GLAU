@@ -45,148 +45,6 @@ Primary use:
 
 
 
-/*//////////////////////////////////////////////////////////////////
-[ Form ]*/
-
-/*---------------------------------------------*/
-.wrap-input100 {
-  position: relative;
-  max-width: calc(100% - 10px);
-  width: 500px;
-  z-index: 1;
-}
-
-.input100 {
-  display: block;
-  width: 100%;
-  background: #fff;
-  height: 70px;
-  border-radius: 35px;
-  padding: 0 40px;
-}
-
-.focus-input100 {
-  content: '';
-  display: block;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-  border-radius: 35px;
-  box-shadow: 0px 0px 0px 0px;
-  color: #FF2B06;
-}
-
-.input100:focus + .focus-input100 {
-  -webkit-animation: anim-shadow 0.5s ease-in-out forwards;
-  animation: anim-shadow 0.5s ease-in-out forwards;
-}
-
-@-webkit-keyframes anim-shadow {
-  to {
-    box-shadow: 0px 0px 80px 30px;
-    opacity: 0;
-  }
-}
-
-@keyframes anim-shadow {
-  to {
-    box-shadow: 0px 0px 80px 30px;
-    opacity: 0;
-  }
-}
-
-
-/*------------------------------------------------------------------
-[ Alert validate ]*/
-
-.validate-input {
-  position: relative;
-}
-
-.alert-validate::before {
-  content: attr(data-validate);
-  position: absolute;
-  max-width: 70%;
-  background-color: #fff;
-  border: 1px solid #c80000;
-  border-radius: 16px;
-  padding: 5px 30px 6px 10px;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  transform: translateY(-50%);
-  right: 12px;
-  pointer-events: none;
-
-  font-family: Lato-Bold;
-  color: #c80000;
-  font-size: 15px;
-  line-height: 1.4;
-  text-align: left;
-
-  visibility: hidden;
-  opacity: 0;
-
-  -webkit-transition: opacity 0.4s;
-  -o-transition: opacity 0.4s;
-  -moz-transition: opacity 0.4s;
-  transition: opacity 0.4s;
-}
-
-.alert-validate::after {
-  content: "\f06a";
-  font-family: FontAwesome;
-  display: block;
-  position: absolute;
-  color: #c80000;
-  font-size: 20px;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  transform: translateY(-50%);
-  right: 18px;
-}
-
-.alert-validate:hover:before {
-  visibility: visible;
-  opacity: 1;
-}
-
-@media (max-width: 992px) {
-  .alert-validate::before {
-    visibility: visible;
-    opacity: 1;
-  }
-}
-
-/*//////////////////////////////////////////////////////////////////
-[ Simple slide100 ]*/
-.simpleslide100 {
-  display: block;
-  position: fixed;
-  z-index: 0;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-}
-
-.simpleslide100-item {
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-}
-
 
 /*==================================================================
     TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
@@ -469,6 +327,35 @@ Primary use:
   .p-r-15-md {padding-right: 15px;}
 
   .w-full-md {width: 100%;}
+
+  .size2 {
+    width: 50px;
+    height: 50px;
+  }
+
+  .l2-txt1 {
+    font-family: Lato-Bold;
+    font-size: 10px;
+    line-height: 1;
+    color:#FF2B06;
+  }
+
+  .s2-txt1 {
+    font-family: Lato-Regular;
+    font-size: 7px;
+    line-height: 1;
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+  .bor1 {
+    border: 3px solid #fff;
+    border-radius: 50%;
+    z-index: 5;
+  }
+  
+  
+  
   /*---------------------------------------------*/
 
 }
