@@ -76,7 +76,7 @@ Primary use:
   height: 100%;
   border-radius: 35px;
   box-shadow: 0px 0px 0px 0px;
-  color: #FF2B06);
+  color: #FF2B06;
 }
 
 .input100:focus + .focus-input100 {
@@ -207,7 +207,7 @@ Primary use:
   font-family: Lato-Regular;
   font-size: 12px;
   line-height: 1;
-  color: #846add;
+  color: #fff;
   text-transform: uppercase;
 }
 
@@ -262,7 +262,7 @@ Primary use:
   font-family: Lato-Bold;
   font-size: 40px;
   line-height: 1;
-  color: #fff;
+  color:#FF2B06;
 }
 
 
@@ -312,8 +312,9 @@ Primary use:
 /*//////////////////////////////////////////////////////////////////
 [ Border ]*/
 .bor1 {
-  border: 1px solid rgba(255,255,255,0.3);
+  border: 5px solid #fff;
   border-radius: 50%;
+  z-index: 5;
 }
 
 
