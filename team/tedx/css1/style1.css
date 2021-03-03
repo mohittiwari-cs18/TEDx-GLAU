@@ -1,0 +1,111 @@
+/*
+
+New Event
+
+http://www.templatemo.com/tm-486-new-event
+
+*/
+*{
+  background:image("../images/slider2.jpg") !important;
+  background-color: none i !important;
+}
+#speakers1
+{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+.owl-carousel .active span {
+  width:10px;
+  height:10px;
+  margin:5px 7px;
+  background: #e62b1e !important;
+  transition: 0.5s;
+  display:block;
+  -webkit-backface-visibility:visible;
+  -webkit-transition:opacity 200ms ease;
+  -moz-transition:opacity 200ms ease;
+  -ms-transition:opacity 200ms ease;
+  -o-transition:opacity 200ms ease;
+  transition:opacity 200ms ease;
+  -webkit-border-radius:30px;
+  -moz-border-radius:30px;
+  border-radius:30px;
+}
+h2{
+  color: white;
+}
+#spe{
+  color: #e62b1e;
+}
+#speakers1{
+  text-align: center;
+}
+
+.parallax-section {
+  background-attachment: fixed !important;
+  background-size: cover !important;
+}
+
+
+/*---------------------------------------
+   Speakers section              
+-----------------------------------------*/
+#speakers1 {
+    background-image: url('../images/slider2.jpg');
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+		font-weight: 400;
+}
+
+#speakers1 h3 {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+		font-weight: 400;
+    margin-bottom: 0px;
+}
+
+#speakers1 h6 {
+  color: #666;
+  font-family: 'Poppins', sans-serif;
+    font-style: normal;
+		font-weight: 400;
+  margin-top: 4px;
+}
+
+#speakers1 img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+#speakers1 .col-md-3 {
+    display: block;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 22px;
+}
+
+#speakers1 .speakers-wrapper {
+    background: #ffffff;
+    padding-bottom: 22px;
+}
+
+
+
+
+
+
+
+/*---------------------------------------
+   Responsive styles            
+-----------------------------------------*/
+@media (max-width: 980px) {
+
+  p {font-size: 13px;}
+
+
+}
+
+
